@@ -65,8 +65,9 @@ const ProductCard = ({ product }: { product: typeof popularProducts[0] }) => (
     <div className="product-item">
         <div className="product-image">
             <img
-                src="/api/placeholder/40/40"
-            // alt={product.name} 
+                src={product.image}
+                alt={product.name}
+                style={{borderRadius: "50%"}}
             />
         </div>
         <div className="product-info" style={{ display: "flex", justifyContent: "space-between" }}>

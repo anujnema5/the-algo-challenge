@@ -68,19 +68,19 @@ export const popularProducts = [
         name: "Necessaire 75ML",
         price: 27.60,
         originalPrice: 34.7,
-        image: "/product1.png"
+        image: "https://thumbs.dreamstime.com/b/d-vitamin-c-round-sphere-capsule-orange-golden-icon-beauty-nutrition-skincare-complex-product-design-medical-d-vitamin-c-324146981.jpg"
     },
     {
         name: "Mario 118ml",
         price: 25.70,
         originalPrice: 32.7,
-        image: "/product2.png"
+        image: "https://thumbs.dreamstime.com/b/page-template-presentation-steps-option-blank-range-modern-style-design-cover-business-brochure-vector-illustration-eps-can-be-50205424.jpg"
     },
     {
         name: "Allergy Relief 25mg",
         price: 25.70,
         originalPrice: 32.7,
-        image: "/product3.png"
+        image: "https://thumbs.dreamstime.com/b/bevel-thought-bubble-blue-background-vector-ilustration-174841956.jpg"
     }
 ];
 
