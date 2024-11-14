@@ -184,14 +184,14 @@ body {
   background: white;
   border-radius: 20px;
   padding: 25px 25px 25px 25px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .small-card {
   background: white;
   border-radius: 20px;
   padding: 25px 25px 20px 25px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   max-height: fit-content;
@@ -212,8 +212,10 @@ body {
   grid-column: span 4;
 }
 
-.consultation-section {
-  /* max-height: 280px; */
+.consultation-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #6b7280;
 }
 
 /* Card Headers */
@@ -359,7 +361,7 @@ body {
   align-items: center;
   gap: 12px;
   padding: 8px 0;
-  
+
 }
 
 .product-image {
@@ -418,7 +420,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
+
 }
 
 .package-item {
@@ -525,11 +527,11 @@ body {
   .grid-container {
     grid-template-columns: repeat(8, 1fr);
   }
-  
+
   .doctors-section {
     grid-column: span 8;
   }
-  
+
   .medications-section,
   .products-section,
   .health-section,
@@ -539,17 +541,17 @@ body {
 }
 
 .products-section,
-  .health-section,
-  .consultation-section {
-    width: 100%;
-    height: auto;
-  }
+.health-section,
+.consultation-section {
+  width: 100%;
+  height: auto;
+}
 
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
-  
+
   .doctors-section,
   .medications-section,
   .products-section,
@@ -557,7 +559,7 @@ body {
   .consultation-section {
     grid-column: span 1;
   }
-  
+
   .doctors-grid {
     grid-template-columns: 1fr;
   }
